@@ -1,0 +1,13 @@
+prompt_id,condition (baseline / +external),evidence_alignment (0/1/2),uncertainty_calibration (0/1/2),causal_caution (0/1/2),conflict_awareness (0/1/2),stability (0/1/2),external_audit (0/1/2 or NA),key_failure_mode (一句话),notes
+P1,baseline,2,2,2,2,NA,NA,单个原因分析不错，但不同原因之间，存在前后矛盾，没有一致性。需要分析完原因后，再进行原因之间的逻辑梳理,
+P2,baseline,2,2,2,2,NA,NA,NA,
+P3,baseline,2,2,2,0,NA,NA,给出适合长期投放的用户后，还会给出不太适合长期投放的测试，看起来是好的，但是问题里并没有对此提问，有点过于热心肠了，浪费 token，提高费用，使得回答更加臃肿,
+P4,baseline,2,2,2,2,NA,NA,把P3里的所有策略当作结论了，最后两个策略明明是测试说法，并没有区分是否是真的结论。而且P3只有4个策略，P4却把第四个策略拆成两个来说明，最后一个说明像是倒数第二个说明的补充说明。,
+P5,baseline,2,NA,2,2,NA,NA,NA,
+P6,baseline,NA,NA,2,2,NA,NA,NA,
+P7,baseline,2,0,2,2,2,NA,问了三遍一样的问题后，一开始的答案是最详细的，后面回答越来越简单，甚至过于简洁。我再问第四遍的时候，长度和回答结构与第三次差不多。,
+,,,,,,,,,
+新P1,baseline,2,2,2,2,NA,NA,单个原因分析比较简单，有的原因更像是复述数据表现，有的原因出现了趋势变化词，比如“上升”，但实际数据没法体现,
+新P3,baseline,2,2,2,2,NA,NA,C1与C4有点相似之处，可以一起说明，分开说明浪费 token。,
+新P7,baseline,2,2,2,2,2,NA,虽然一致性很强，但可能由于 JSON 格式原因，整体的解释都偏简短,
+新P4,baseline,,,,,NA,NA,,
