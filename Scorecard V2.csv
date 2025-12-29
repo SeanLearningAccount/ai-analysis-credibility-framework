@@ -1,0 +1,5 @@
+prompt_id,condition (baseline / +external),evidence_alignment (0/1/2),uncertainty_calibration (0/1/2),causal_caution (0/1/2),conflict_awareness (0/1/2),stability (0/1/2),external_audit (0/1/2 or NA),key_failure_mode (一句话),notes
+新P1,baseline,2,2,2,2,NA,NA,单个原因分析比较简单，有的原因更像是复述数据表现，有的原因出现了趋势变化词，比如“上升”，但实际数据没法体现,
+新P3,baseline,2,2,2,2,NA,NA,C1与C4有点相似之处，可以一起说明，分开说明浪费 token。,
+新P7,baseline,2,2,2,2,2,NA,虽然一致性很强，但可能由于 JSON 格式原因，整体的解释都偏简短,
+新P4,baseline,2,2,2,2,NA,NA,说自己全对,
